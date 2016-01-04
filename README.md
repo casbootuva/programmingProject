@@ -7,7 +7,10 @@ What features will be exposed to the end user, what problem will be solved for t
 
 	By doing this, a person owning a startup will know where to seek funding. 
 
-
+A preliminary sketch of what the application will look like?
+	
+	I added a screenshot of a type of graph that I want to make in the doc file. I also want to make a chloropleth map.
+	Furthermore I have not yet figured out exactly what visualisations I want to make.
 
 What data sets and data sources will you need, how you will get the data into the right form for your app?
 	
