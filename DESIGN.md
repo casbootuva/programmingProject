@@ -4,10 +4,12 @@ This is the design document for my venture capital funding visualisation. It str
 
 
 Data
+
 The data will be obtained from the crunchbase database. For now, we will only take data of 2015. Some data do not show which country the VC investor is from or don't show how much dollars were invested. We need to dispose that data, we can do this in Excel, where the data is located currently. Then we need to reorganize the investments into broader categories. At the moment they are too specific which is a problem. We will solve this problem by using if statements in Python. Based on keywords in the category field, when can set it to a new category.  For example, if "bitcoin" is found in the category field, set it to the category "financial technology". Then we will dump it to a JSON file.
 
 
 Visualisation
+
 We will make two graphs that interact with each other. It is hard to explain what they look like with words, so I would like to refer to the scetches that I made. You can find them in this directory. The first one portrays all investments in certain categories by certain countries. These will be represented by a circle. The circle's color shows which category it represents. If the mouse hovers onto a circle, a field will popup showing:
 	
 	-Which country it is.
@@ -26,5 +28,6 @@ Challenges in the second graph will be to make sure that the circles from the fi
 
 
 User Interface
+
 The user will start at a homepage, explaining the goal of the visualisation. Also the source of the data will be mentioned. The user will click a button and will then be exposed to the graphs. Under the first graphs several conclusions will be drawn from the data. Furthermore next to the second graph conclusions will be drawn from the data. Then the user will now where to start his startup!
 
